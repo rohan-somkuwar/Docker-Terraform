@@ -1,4 +1,3 @@
-# Start a container
 resource "docker_container" "nginx" {
   name  = "nginx"
   image = docker_image.nginx_image.latest
